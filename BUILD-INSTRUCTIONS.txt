@@ -1,0 +1,13 @@
+TOGETHER ADVENTURE — ANDROID APP SOURCE
+
+This is an Android Studio project, NOT a compiled APK.
+
+1. Install Android Studio on a Windows/Mac/Linux computer.
+2. Extract this ZIP and open the TogetherAdventure-AndroidProject folder in Android Studio.
+3. Let Android Studio download/sync Android Gradle Plugin 8.7.3 and Android SDK 35. Internet is needed for first setup.
+4. Select Build > Build Bundle(s) / APK(s) > Build APK(s).
+5. Your installable APK will be at app/build/outputs/apk/debug/app-debug.apk.
+6. Copy that APK to your Android phone and install it (allow install from this source if prompted).
+
+The game runs offline in an Android WebView and saves progress locally.
+This wraps the existing 2D prototype; it does not turn the game into realistic 3D.
