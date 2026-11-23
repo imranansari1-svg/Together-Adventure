@@ -1,1 +1,13 @@
-plugins { id 'com.android.application' version '8.7.3' apply false }
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.together.adventure'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'com.together.adventure'
+        minSdk 24
+        targetSdk 28
+        versionCode 1
+        versionName '1.0'
+    }
+}
